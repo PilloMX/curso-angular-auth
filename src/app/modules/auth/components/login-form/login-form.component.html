@@ -55,6 +55,9 @@
       </p>
     </div>
   </div>
+  <div *ngIf="status === 'failed'">
+    <p class="font-me text-red-500 text-xs mt-1 ml-1">Credenciales fallidas!</p>
+  </div>
   <div>
     <app-btn
       typeBtn="submit"
